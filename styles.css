@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #353535;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #1c1c1c;
+  box-shadow: 0 0 8px #171717;
+  border-radius: 4px;
+  border: 4px solid rgb(0, 237, 237);
+}
+.card h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+.input-container {
+  background-color: rgb(38, 38, 38);
+  padding: 2rem;
+  border-radius: 4px;
+}
+.input-container,
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 12px;
+}
+.output-container {
+  padding: 2rem;
+}
+.output1,
+.output2,
+.output3 {
+  padding: 0.5rem;
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+.output1 p,
+.output2 p,
+.output3 p {
+  padding: 4px 0;
+}
+button {
+  background-color: aliceblue;
+  border: none;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0 4px aliceblue;
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+}
+input {
+  width: 80px;
+  padding: 1rem;
+  line-height: 1.5;
+  border: none;
+  background-color: aliceblue;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(38, 38, 38);
+  border: 3px solid white;
+  color: white;
+}
